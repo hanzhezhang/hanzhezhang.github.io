@@ -4,13 +4,13 @@ html, body, div, span, p, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acro
 	border: 0;
 	vertical-align: baseline;
 	font-family: Arial;
-	font-size: 10pt;
+	font-size: 10.5pt;
 }
 
 html, body{
 	height: 100%;
 	background-color: Grey;
-	line-height: 1.2;
+	line-height: 1.4;
 }
 
 #header, #nav {
@@ -25,12 +25,8 @@ ul {
 	list-style: none;
 }
 
-li {
-	margin-bottom: 10px;
-}
-
-hr,ol,ul {
-	margin-bottom: 10px;
+hr,ol,ul,li {
+	margin-bottom: 6px;
 }
 
 /* RESET, GENERAL */
@@ -50,8 +46,8 @@ a:active {outline: none;}
 .alignleft {float:left;}
 
 ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
-	margin-top: 6px;
-	margin-bottom: 6px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .clear{
@@ -91,7 +87,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 
 /* Page-body */
 #page-body {
-	padding: 15px 10px 15px 0;
+	padding: 20px 10px 20px 0;
 }
 
 /*Main-col*/
@@ -105,8 +101,8 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	text-transform: uppercase;
 	font-size: x-large;
 	color: #18453B;
-	margin-bottom: 6px;
-	margin-top: 6px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	text-align: center;
 }
 
@@ -114,16 +110,16 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	text-transform: uppercase;
 	font-size: large;
 	color: #18453B;
-	margin-bottom: 6px;
-	margin-top: 6px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 
 #main-col h3 {
 	font-size: medium;
 	font-weight: bold;
 	color: #18453B;
-	margin-bottom: 6px;
-	margin-top: 6px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 
 #main-col ul {
