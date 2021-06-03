@@ -4,7 +4,7 @@ html, body, div, span, p, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acro
 	border: 0;
 	vertical-align: baseline;
 	font-family: Arial;
-	font-size: 11pt;
+	font-size: 10pt;
 }
 
 html, body{
@@ -25,7 +25,6 @@ ul {
 	list-style: none;
 }
 
-
 li {
 	margin-bottom: 10px;
 }
@@ -36,14 +35,13 @@ hr,ol,ul {
 
 /* RESET, GENERAL */
 body {
-	font: 11px;
+	font-size: 10px;
 }
 
 a {
 	color:#18453B;
 	outline: none;
 	text-decoration: none;
-	font-style: bold;
 }
 
 a:active {outline: none;}
@@ -69,9 +67,9 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 
 /* NAV */
 #nav {
-	height: 30px;
+	height: 25px;
 	text-transform: uppercase;
-	font: 12px;
+	font-size: 10px;
 	padding: 0 0 0 0;
 	position: relative;
 	text-align: center;
@@ -87,13 +85,13 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	content: "HANZHE ZHANG";
 	text-align: center;
 	position: relative;
-	top: 20px;
-	bottom: 20px;
+	top: 15px;
+	bottom: 15px;
 }
 
 /* Page-body */
 #page-body {
-	padding: 30px 12px 30px 0;
+	padding: 15px 10px 15px 0;
 }
 
 /*Main-col*/
@@ -107,7 +105,8 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	text-transform: uppercase;
 	font-size: x-large;
 	color: #18453B;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
+	margin-top: 6px;
 	text-align: center;
 }
 
@@ -115,13 +114,13 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	text-transform: uppercase;
 	font-size: large;
 	color: #18453B;
-	margin-bottom: 5px;
-	margin-top: 5px;
+	margin-bottom: 6px;
+	margin-top: 6px;
 }
 
 #main-col h3 {
 	font-size: medium;
-	font: bold;
+	font-weight: bold;
 	color: #18453B;
 	margin-bottom: 6px;
 	margin-top: 6px;
@@ -152,7 +151,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	height: 80px;
 	color: #fff;
 	font-size: 30px;
-	font-color: White;
+	color: White;
 	text-align: center;
 	font-weight: bolder;
 	margin: 0 auto 0 auto;
@@ -168,7 +167,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 .addr:after{
 	content: "Department of Economics, Michigan State University";
 	color: White;
-	font: bold;
+	font-weight: bold;
 	top: 10px;
 	position: relative;
 
