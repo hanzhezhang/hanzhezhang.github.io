@@ -4,13 +4,13 @@ html, body, div, span, p, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acro
 	border: 0;
 	vertical-align: baseline;
 	font-family: Arial;
-	font-size: 10.5pt;
+	font-size: 10pt;
 }
 
 html, body{
 	height: 100%;
 	background-color: Grey;
-	line-height: 1.4;
+	line-height: 1.2;
 }
 
 #header, #nav {
