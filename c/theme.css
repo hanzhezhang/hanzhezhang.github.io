@@ -26,7 +26,7 @@ ul {
 }
 
 hr,ol,ul,li {
-	margin-bottom: 6px;
+	margin-bottom: 5px;
 }
 
 /* RESET, GENERAL */
@@ -99,7 +99,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 
 #main-col h1 {
 	text-transform: uppercase;
-	font-size: x-large;
+	font-size: 12pt;
 	color: #18453B;
 	margin-bottom: 5px;
 	margin-top: 5px;
@@ -108,7 +108,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 
 #main-col h2 {
 	text-transform: uppercase;
-	font-size: large;
+	font-size: 11pt;
 	color: #18453B;
 	margin-bottom: 5px;
 	margin-top: 5px;
