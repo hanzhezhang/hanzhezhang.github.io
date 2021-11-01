@@ -115,7 +115,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 }
 
 #main-col h3 {
-	font-size: medium;
+	font-size: 10pt;
 	font-weight: bold;
 	color: #18453B;
 	margin-bottom: 5px;
