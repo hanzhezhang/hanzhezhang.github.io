@@ -144,7 +144,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 
 /* HEADER*/
 #header {
-	height: 80px;
+	height: 70px;
 	color: #fff;
 	font-size: 30px;
 	color: White;
@@ -161,10 +161,9 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 }
 
 .addr:after{
-	content: "Department of Economics, Michigan State University";
+	content: "";
 	color: White;
 	font-weight: bold;
 	top: 10px;
 	position: relative;
-
 }
