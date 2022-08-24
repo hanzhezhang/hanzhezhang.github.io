@@ -22,6 +22,20 @@
 
 <title>Hanzhe Zhang's Homepage</title>
 
+<style>
+.section{display: inline-block;transition: .25s;background-color: lightgray; width: auto;}
+.collapsible-content{height: 0px;overflow: hidden;}
+</style>
+<script>
+function toggle(elem)
+{
+    sec=elem.parentElement;
+    if(sec.style.width!='100%') sec.style.width='100%'; else sec.style.width='auto';
+    coll=sec.getElementsByClassName("collapsible-content")[0];
+    if(coll.style.height!='auto') coll.style.height='auto'; else coll.style.height='0px';
+}
+</script>
+
 </head>
 
 <body class="home">
@@ -64,33 +78,35 @@ Please reach out.
 <div id="right-col" class="grid_4"><img src="profilepic.jpg" width="100%", align="center" /></img></div>
 </div>
 
-<div id="main-col" class="grid_18">
+<div id="news" class="grid_18">
 <h3>NEWS</h3>
   <ul>
-  <li>08/22: Paper "Decision Model to Optimize Long-term Subsidy Strategy for Green Building Promotion" in press <i><b>Sustainable Cities and Society</b></i>.
-  <li>07/22: Paper "Polarization, Antipathy, and Political Activism" (with Jiabin Wu) lead aricle in <i><b>Economic Inquiry</b></i>.
-  <li>04-07/22: Project "Can Machine Learning Help Team Performance?" supported by Provost Undergraduate Research Initiative (PI),
-      Summer Research Programs for underrepresented students (mentor), NSF REU ICER ACRES (mentor), and Honors College Seminar (instructor), and presented
-      to K-12 students at MSU Science Festival and Gardner International Magnet School.
-  <li>03/22: Paper "Project Team Collaborations During Time of Disruptions: Transaction Costs, Knowledge Flows, and Social Network Theory Perspective</a>
-  (with Hasan Gokberk Bayhan, Sinem Mollaoglu, and Kenneth Frank) in <i><b>Construction Research Congress</b></i>.
-  <li>03/22: Project "Assortative Mating in China" funded by MSU Asian Studies Center Dr. Delia Koo Faculty Endowment Award (PI).
-  <li>11/21: Project "Helping Females, Underrepresented Minorities, and International Students via Intelligent Multidisciplinary Interventions of Student Project Teams"
-    funded by MSU Diversity Research Network (PI).
-  <li>11/21: Paper "Prices versus Auctions in Large Markets" in <i><b>Economic Theory</b></i>.
-  <li>08/21: Paper "Preference Evolution in Different Matching Markets" (with Jiabin Wu) in <i><b>European Economic Review</b></i>.
-  <li>06/21: Paper "Tractable Cubic Cost Functions for Teaching Microeconomics" (with Scott Swinton) in <i><b>Applied Economics Teaching Resources</b></i>.
-  <li>05/21: Project "Laboratory Experiments on Labor Market Matching and Negotiation" funded by MSU Faculty Initiatives Fund (PI).
-  <li>05/21: Paper "An Investment-and-Marriage Model with Differential Fecundity: On the College Gender Gap" in <i><b>Journal of Political Economy</b></i>.
-  <li>04/21: Paper "The Optimal Sequence of Prices and Auctions" in <i><b>European Economic Review</b></i>.
-  <li>09/20: Project "Responding to COVID-19 Challenges in Preparation of Future of Work" funded by National Science Foundation (co-PI, $240,000).
-  <li>05/20: Paper "Pre-Matching Gambles" in <i><b>Games and Economic Behavior</b></i>.
-  <li>03/20: Paper "Overcoming Borrowing Stigma: The Design of Lending-of-Last-Resort Policies" best paper award from Midwest Finance Association.
-  <li>09/19: Project "Intelligent Social Network Interventions to Augment Human Cognition for Bolstered Interdisciplinary Interactions in Project Teams"
-    funded by National Science Foundation (co-PI, $1.2 million).
+  <li>&#128214; 11/22: <a href="research/2211GreenBuildings.pdf">Decision model to optimize long-term subsidy strategy for green building promotion</a> in <i>Sustainable Cities and Society</i> (IF:10.696).
+  <li>&#128214; 07/22: <a href="research/2207PolarizationEI.pdf">Polarization, antipathy, and political activism</a> lead article in <i>Economic Inquiry</i>.
+  <li>&#128176; 05/22: <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1949912">Can machine learning help team performance?</a> supported by National Science Foundation REU ICER ACRES (mentor).
+  <li>&#128176; 05/22: <a href="https://grad.msu.edu/srop">Can machine learning help team performance?</a> supported by Summer Research Opportunity Program (SROP) for underrepresented students (mentor).
+  <li>&#128264; 04/22: <a href="https://sciencefestival.msu.edu/Event/View/25">Can machine learning help team performance?</a> featured presentation at MSU Science Festival and Gardner International Magnet School.
+  <li>&#128214; 03/22: <a href="research/2203ASCECRC.pdf">Project team collab. during disruptions: transaction costs, knowledge flows, and social network theory perspective</a> in <i>Construction Research Congress</i>.
+  <li>&#128176; 03/22: <a href=""><i>Men Dang Hu Dui</i>: Assortative mating in China</a> funded by MSU Asian Studies Center Dr. Koo Faculty Endowment Award (PI, $4,000, 03/22-03/24).
+  <li>&#128176; 11/21: <a href="">Helping females, underrepresented minorities, and international students via intelligent multidisciplinary interventions of student project teams</a>
+    funded by MSU Diversity Research Network Launch Award Program (PI, $5,000, 11/21-11/22).
+  <li>&#128214; 11/21: <a href="research/2009PvAfinal.pdf">Prices versus auctions in large markets</a> in <i>Economic Theory</i>.
+  <li>&#128214; 08/21: <a href="research/2108EvoMatchEER.pdf">Preference evolution in different matching markets</a> in <i>European Economic Review</i>.
+  <li>&#128214; 06/21: <a href="research/2106AETR.pdf">Tractable cubic cost functions for teaching microeconomics</a> in <i>Applied Economics Teaching Resources</i>.
+  <li>&#128176; 05/21: <a href="">Laboratory experiments on labor market matching and negotiation</a> funded by MSU Faculty Initiatives Fund (PI, $5,332, 05/21-12/22).
+  <li>&#128214; 05/21: <a href="research/2105InvestMarriageJPE.pdf">An investment-and-marriage model with differential fecundity: on the college gender gap</a>" in <i>Journal of Political Economy</i>.
+  <li>&#128214; 04/21: <a href="research/2104PriceAucSeqEER.pdf">The optimal sequence of prices and auctions</a> in <i>European Economic Review</i>.
+  <li>&#128176; 09/20: <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1928278&HistoricalAwards=false">RAPID: Responding to COVID-19 challenges in preparation of future of work</a> funded by National Science Foundation (co-PI, $240,000, 09/20-08/23).
+  <li>&#128214; 09/20: <a href="research/2009Overconfidence.pdf">Evolutionary justifications for overconfidence</a> in <i>Economics Bulletin</i>.
+  <li>&#128214; 05/20: <a href="research/2005PreMatchingGambles.pdf">Pre-matching gambles</a> in <i>Games and Economic Behavior</i>.
+  <li>&#127942; 03/20: <a href="research/2207DWTAF.pdf">Overcoming borrowing stigma: the design of lending-of-last-resort policies</a> best paper award from Midwest Finance Association.
+  <li>&#127942; 09/19: <a href="research/2207DWTAF.pdf">Overcoming borrowing stigma: the design of lending-of-last-resort policies</a> best paper award from Eastern Finance Association.
+  <li>&#128176; 09/19: <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1928278&HistoricalAwards=false">FW-HTF-RM: Intelligent social network interventions to augment human cognition for bolstered interdisciplinary interactions in project teams</a>
+    funded by National Science Foundation (co-PI, $1.2 million, 09/19-08/23).
 	</ul>
 <br/>
 </div>
+
 <br/>
 <div class="clear"></div>
 </div>
