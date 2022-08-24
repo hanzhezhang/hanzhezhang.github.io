@@ -142,6 +142,38 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	font-weight: bold;
 }
 
+#news {
+	text-align: justify;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+#news ul {
+	padding-left:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+#news h3 {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #18453B;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#news ol {
+	padding-left:10px;
+	margin-left:20px;
+	margin-right:0px;
+}
+
+#news a{
+	color:#18453B;
+	outline: none;
+	text-decoration: none;
+}
+
 /* HEADER*/
 #header {
 	height: 70px;
