@@ -54,6 +54,21 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	height: 20px;
 }
 
+#main-col li {
+  position: relative;
+}
+
+#main-col li.conf:before {
+  content: "C";
+  position: absolute;
+  left: -33px;
+}
+
+#main-col li.conf:nth-of-type(n+10):before {
+	position: absolute;
+  left: -33px;
+}
+
 /* PAGE-WRAP */
 #page-wrap {
 	min-height: 100%;
@@ -135,7 +150,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	margin-right:0px;
 }
 
-#main-col a{
+#main-col a {
 	color:#18453B;
 	outline: none;
 	text-decoration: none;
@@ -168,7 +183,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	margin-right:0px;
 }
 
-#news a{
+#news a {
 	color:#18453B;
 	outline: none;
 	text-decoration: none;
