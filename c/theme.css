@@ -17,6 +17,11 @@ html, body{
 	background-color: #18453B;
 }
 
+.collab {
+    color: gray;
+    opacity: 0.8; /* Makes the text slightly transparent */
+}
+
 .thin {
 	font-weight: 500;
 }
