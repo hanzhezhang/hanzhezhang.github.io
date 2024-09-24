@@ -165,13 +165,14 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 100%;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .journal {
 	color:#18453B;
 	outline: none;
 	text-decoration: none;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 100%;
 }
 
@@ -180,6 +181,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 100%;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 #news {
