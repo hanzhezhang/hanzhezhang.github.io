@@ -227,6 +227,28 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 	margin: 0 auto 0 auto;
 }
 
+.line-with-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.line-with-text::before,
+.line-with-text::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.line-with-text::before {
+  margin-right: 10px;
+}
+
+.line-with-text::after {
+  margin-left: 10px;
+}
+
 /* FOOTER */
 #footer {
 	background-color: #18453B;
