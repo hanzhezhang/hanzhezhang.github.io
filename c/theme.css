@@ -10,7 +10,7 @@ html, body, div, span, p, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acro
 html, body{
 	height: 100%;
 	background-color: Grey;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 
 #header, #nav {
@@ -102,7 +102,7 @@ ul + h3, p + h3, #main-col ul + p, #right-col ul + p  {
 }
 
 .name:before{
-	content: "HANZHE ZHANG";
+	content: "HANZHE ZHANG (张瀚哲)";
 	text-align: center;
 	position: relative;
 	top: 15px;
